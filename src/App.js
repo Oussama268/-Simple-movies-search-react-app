@@ -19,8 +19,10 @@ const App = () => {
     const data = await response.json();
 
     setMovies(data.Search);
+    console.log(data)
   };
 
+  
   return (
     <div className="app">
       <h1>MovieLand</h1>
