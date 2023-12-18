@@ -52,6 +52,7 @@ const App = () => {
           <h2>No movies found</h2>
         </div>
       )}
+      
     </div>
     
   );
