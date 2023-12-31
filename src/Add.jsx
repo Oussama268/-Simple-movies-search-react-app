@@ -22,7 +22,7 @@ const Add = () => {
                 <button type="button" onclick={() => {setPcs([...pcs,pc])}}>Add PC</button>
             </div>
 
-            <table>
+            <table border={'1px'}>
                 <tr>
                     <th>PC NAME</th>
                     <th>CPU</th>
@@ -32,8 +32,8 @@ const Add = () => {
                 </tr>
                 {
                     
-                    pcs.map((pc) => {
-                        return(
+                    pcs.map( pc => 
+                        
                             <tr>
                                 <td>{pc.name}</td>
                                 <td>{pc.cpu}</td>
@@ -41,8 +41,8 @@ const Add = () => {
                                 <td>{pc.ram}</td>
                                 <td>{pc.storage}</td>
                             </tr>
-                        )
-                    })
+                        
+                    )
                 }
             </table>
             
