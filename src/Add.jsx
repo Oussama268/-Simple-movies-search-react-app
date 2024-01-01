@@ -4,7 +4,7 @@ import {useState} from "react"
 
 const Add = () => {
 
-    const [pc,setPc] = useState({name :"" ,cpu :'' ,gpu :'' ,ram :'',storage: ''})
+    const [pc,setPc] = useState({name : "" ,cpu : '' ,gpu : '' ,ram :'',storage: ''})
     const [pcs,setPcs] = useState([])
 
 
@@ -22,7 +22,7 @@ const Add = () => {
                 <button type="button" onclick={() => {setPcs([...pcs,pc])}}>Add PC</button>
             </div>
 
-            <table border={'1px'}>
+            <table border={'2px'}>
                 <tr>
                     <th>PC NAME</th>
                     <th>CPU</th>
