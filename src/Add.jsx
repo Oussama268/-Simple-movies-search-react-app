@@ -22,7 +22,7 @@ const Add = () => {
                 <button type="button" onclick={() => {setPcs([...pcs,pc])}}>Add PC</button>
             </div>
 
-            <table border={'2px'}>
+            <table border={'3px'}>
                 <tr>
                     <th>PC NAME</th>
                     <th>CPU</th>
