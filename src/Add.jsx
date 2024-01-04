@@ -4,7 +4,7 @@ import {useState} from "react"
 
 const Add = () => {
 
-    const [pc,setPc] = useState({name : "" ,cpu : '' ,gpu : '' ,ram :'',storage: ''})
+    const [pc,setPc] = useState({name : "" ,cpu : "" ,gpu : "" ,ram :"" , storage: ""})
     const [pcs,setPcs] = useState([])
 
 
