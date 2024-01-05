@@ -32,8 +32,8 @@ const Add = () => {
                 </tr>
                 {
                     
-                    pcs.map( pc => 
-                        
+                    pcs.map( (pc) =>{ 
+                        return(
                             <tr>
                                 <td>{pc.name}</td>
                                 <td>{pc.cpu}</td>
@@ -41,6 +41,8 @@ const Add = () => {
                                 <td>{pc.ram}</td>
                                 <td>{pc.storage}</td>
                             </tr>
+                            )
+                            }
                         
                     )
                 }
