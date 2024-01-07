@@ -42,7 +42,7 @@ const App = () => {
         />
       </div>
 
-      {movies?.length > 0 ? (
+      {movies?.length>0 ? (
         <div className="container">
           {movies.map((movie) => (
             <MovieContainer movie={movie} />
@@ -50,7 +50,7 @@ const App = () => {
         </div>
       ) : (
         <div className="empty">
-          <h3>No movies found</h3>
+          <h3>No Movies Found</h3>
         </div>
       )}
       

@@ -19,7 +19,7 @@ const Add = () => {
                 Gpu : <input type="text" value={pc.gpu} onchange={(e) => {setPc({...pc,gpu : e.target.value})}}/><br />
                 Ram : <input type="text" value={pc.ram} onchange={(e) => {setPc({...pc,ram : e.target.value})}}/><br />
                 Storage : <input type="text" value={pc.storage} onchange={(e) => {setPc({...pc,storage : e.target.value})}}/><br />
-                <button type="button" onclick={() => {setPcs([...pcs,pc])}}>Add PC</button>
+                <button type="button" onclick={ () => {setPcs([...pcs,pc])}}>Add PC</button>
             </div>
 
             <table border={'3px'}>
