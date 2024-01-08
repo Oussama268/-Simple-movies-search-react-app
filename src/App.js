@@ -8,6 +8,8 @@ const API_URL = "http://www.omdbapi.com?apikey=b6003d8a";
 
 const App = () => {
 
+  const face = "):";
+
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
 
@@ -50,7 +52,7 @@ const App = () => {
         </div>
       ) : (
         <div className="empty">
-          <h3>No Movies Found</h3>
+          <h3>No Movies Found {face} </h3>
         </div>
       )}
       
