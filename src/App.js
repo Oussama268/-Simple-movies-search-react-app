@@ -6,7 +6,7 @@ import "./App.css";
 
 const API_URL = "http://www.omdbapi.com?apikey=b6003d8a";
 
-const App = () => {
+export default App = () => {
 
   const face = "):";
 
@@ -52,7 +52,7 @@ const App = () => {
         </div>
       ) : (
         <div className="empty">
-          <h3>No Movies Found {face} </h3>
+          <h3>No Movies Found {face}</h3>
         </div>
       )}
       
@@ -63,4 +63,4 @@ const App = () => {
   );
 };
 
-export default App;
+
