@@ -52,7 +52,7 @@ export default App = () => {
         </div>
       ) : (
         <div className="empty">
-          <h3>No Movies Found {face}</h3>
+          <h3>No movies found {face}</h3>
         </div>
       )}
       
