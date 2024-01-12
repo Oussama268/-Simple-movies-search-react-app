@@ -4,9 +4,10 @@ import MovieContainer from "./MovieContainer";
 import SearchIcon from "./Search.svg";
 import "./App.css";
 
+
 const API_URL = "http://www.omdbapi.com?apikey=b6003d8a";
 
-export default App = () => {
+const App = () => {
 
   const NoMovies = "No movies found ):";
 
@@ -64,3 +65,4 @@ export default App = () => {
 };
 
 
+export default App;
