@@ -18,6 +18,7 @@ const App = () => {
   
   useEffect(() => {
     searchMovies(searchTerm);
+    
   }, [searchTerm]);
 
   const searchMovies = async (title) => {
