@@ -10,7 +10,7 @@ const API_URL = "http://www.omdbapi.com?apikey=b6003d8a";
 
 const App = () => {
 
-  const NoMovies = "No movies found ._.";
+  const NoMovies = "No movies found";
 
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
